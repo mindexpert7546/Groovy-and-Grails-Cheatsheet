@@ -8,9 +8,9 @@ class Semicolon {
 
       //activity as per our choice
 
-      def x = 5// def is recommended
+      def x = 5;// def is recommended
 
-      println('Hello World'); //semicolon is optional
+      println('Hello World') //semicolon is optional
 
    }
 
