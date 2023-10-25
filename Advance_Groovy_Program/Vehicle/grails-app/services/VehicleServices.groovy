@@ -1,13 +1,13 @@
-class VehicleServices{
-    Vehicle vehicle;
-    Bus bus;
-    Car car;
-    Truck truck;
+class VehicleServices {
+    Vehicle vehicle
 
-    //method to get location
-    def findAllByStateCode(String statecode){
-       if(vehicle.vCode.contains(stateCode)){
-        return car.location;
-       }
+    // Method to get the location based on state code
+    def findLocationByStateCode(String stateCode) {
+        if (vehicle.vCode.containsKey(stateCode)) {
+            return vehicle.vCode[stateCode]
+        } else {
+            // Return an appropriate value or error message if the state code is not found
+            return "State code not found"
+        }
     }
 }
