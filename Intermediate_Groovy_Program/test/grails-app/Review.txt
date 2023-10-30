@@ -1,0 +1,10 @@
+MVC - MVC stand for Model View and Controller 
+
+Model : Model represent the database 
+
+View : It is just the user interface like our html file 
+
+Controller : It is used to write the logic for model 
+
+ServiceClass : It helps to write different types of method and logic for the controller and view and it also use <params> concept 
+
